@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1{
+    height:  350vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  header{
+    display: flex;
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 25vh;
+    z-index: 1;
+    justify-content: space-between;
+    
+  }
+  .nav {
+    display: flex;
+  align-items: center;
+  height: 20vh;
+  width: 70%;
+  justify-content: center;
+  gap: 3vw;
+  margin-left: 42vw;
+ 
+  }
+  h1{
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+  .imglogo{
+    width: 9vw;
+  height: 20vh;
+  color: white;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  margin-left: 50px;
+}
+  #Layer_1 {
+    height: 50px;
+    width: 165px;
+  }
+
+  
+ 
+  
+  .name {
+    color: white;
+    font-size: 1.3rem;
+    font-family: messina-sans;
+  }
+  
+  
+  
+ 
+  
+  footer {
+    height: 75vh;
+    width: 100%;
+    background: #161f1e;
+    color: white;
+   
+  }
+  .logoinf {
+    display: flex;
+   
+    margin-top: 8%;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+  }
+  .last {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .logomain {
+    width: 40%;
+  }
+  .test {
+    margin-left: 8%;
+  }
+  .caps{
+    margin-top: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.95rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .value {
+    margin-top: 15px;
+    color: white;
+    font-size: 0.95rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rights {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    margin-left: 11%;
+  }
+  
+  .siteby {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
+  
+  .main{
+    padding-top: 50px;
+    padding-right: 25px;
+      width: 100%;
+      background: #000;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 9vw;
+     height: 100%;
+  }
+  
+
+  
+  .cards{
+      height: 300px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .text{
+      width: 90%;
+      color: #fff;
+      font-family: messina-sans;
+      font-size: .85rem;
+      line-height: 1.1;
+      margin-top: 1rem;
+      text-transform: uppercase;
+  }
+  .city{
+      width: 90%;
+      line-height: 1.3;
+      margin-top: .25rem;
+      color: #777;
+      font-size: .9rem;
+  }
+  .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 60%;
+      width: 100%;
+  }
+  
+  #img{
+      height: 100%;
+      width: 95%;
+      object-fit: cover;
+  }
